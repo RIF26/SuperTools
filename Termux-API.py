@@ -4,7 +4,6 @@
 
 import codecs
 import binascii
-import re
 from time import sleep
 import sys
 import os
@@ -82,13 +81,13 @@ def NFZ():
 		WiFi_Conn_Info()
 	elif Bang_Jago is "9":
 		WiFi_Scan_Info()
-	elif Bang_Jago is "10":
+	elif Bang_Jago == "10":
 		os.system(Clears)
 		print("\n")
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:
@@ -119,13 +118,17 @@ def Balik():
 def Lagi():
 	os.system(Clears)
 	Gator_Bks()
-	print("""\033[91m[\033[0m1\033[91m]\033[93m KEMBALI KE PROGRAM SUHU TEMPERATUR
+	print("""\033[91m[\033[0m1\033[91m]\033[93m KEMBALI KE PROGRAM TERMUX API
 \033[91m[\033[0m2\033[91m]\033[93m KEMBALI KE AWAL PROGRAM
 \033[91m[\033[0m3\033[91m]\033[91m KELUAR
 """)
 	print("\033[37m")
 	GatorBks = input("\033[91m[\033[93m+\033[91m]\033[92m Masukkan Pilihan\033[93m =>\033[0m ")
 	if GatorBks is "1":
+		os.system(Clears)
+		print("\n")
+		print("\033[96m[\033[93m+\033[96m]\033[93m Sedang Mempersiapkan Tools Harap Tunggu Sebentar...")
+		sleep(5)
 		os.system(Clears)
 		print("\n")
 		print(input("\033[91m[\033[93m+\033[91m]\033[93m Tekan Enter Untuk Melanjutkan"))

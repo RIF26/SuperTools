@@ -86,8 +86,7 @@ NFZ () {
 	echo -e "   Seizin Saya!!"
 	echo -e " • For Credit/Bug Chat WA : 081310662343"
 	echo -e "$green●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●" 
-	echo -e "$w_default"
-	Menu
+	echo -e "\n"
 }
 
 
@@ -151,7 +150,7 @@ Balik() {
 # Ulang
 Lagi() {
 	clear
-	echo -e "\n"
+	NFZ
 	echo -e "$red[\e[1;37m1$red]$yellow KEMBALI KE PROGRAM SUBNETTING IP"
 	echo -e "$red[\e[1;37m2$red]$yellow KEMBALI KE AWAL PROGRAM"
 	echo -e "$red[\e[1;37m3$red]$red KELUAR"
@@ -223,6 +222,7 @@ Lagi() {
 
 
 NFZ
+Menu
 }
 
 

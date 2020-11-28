@@ -67,6 +67,10 @@ def Lagi():
 	if GatorBks == "1":
 		os.system(Clears)
 		print("\n")
+		print("\033[96m[\033[93m+\033[96m]\033[93m Sedang Mempersiapkan Tools Harap Tunggu Sebentar...")
+		sleep(5)
+		os.system(Clears)
+		print("\n")
 		print(input("\033[91m[\033[93m+\033[91m]\033[93m Tekan Enter Untuk Melanjutkan"))
 		os.system(Clears)
 		print("\n")
@@ -98,7 +102,7 @@ def Lagi():
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:

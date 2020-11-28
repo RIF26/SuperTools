@@ -52,13 +52,13 @@ def NFZ():
 		Colors()
 	elif Bang_Jago is "2":
 		Fonts()
-	elif Bang_Jago is "3":
+	elif Bang_Jago == "3":
 		os.system(Clears)
 		print("\n")
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:
@@ -98,6 +98,10 @@ def Lagi():
 	if GatorBks is "1":
 		os.system(Clears)
 		print("\n")
+		print("\033[96m[\033[93m+\033[96m]\033[93m Sedang Mempersiapkan Tools Harap Tunggu Sebentar...")
+		sleep(5)
+		os.system(Clears)
+		print("\n")
 		print(input("\033[91m[\033[93m+\033[91m]\033[93m Tekan Enter Untuk Melanjutkan"))
 		os.system(Clears)
 		print("\n")
@@ -123,13 +127,13 @@ def Lagi():
 		sleep(5)
 		os.system(Clears)
 		os.system(Ulangi)
-	elif GatorBks is "3":
+	elif GatorBks == "3":
 		os.system(Clears)
 		print("\n")
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:

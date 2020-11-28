@@ -63,13 +63,13 @@ def NFZ():
 		Perpangkatan()
 	elif Bang_Jago is "6":
 		Sisa_Bagi()
-	elif Bang_Jago is "7":
+	elif Bang_Jago == "7":
 		os.system(Clears)
 		print("\n")
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:
@@ -109,6 +109,10 @@ def Lagi():
 	if GatorBks is "1":
 		os.system(Clears)
 		print("\n")
+		print("\033[96m[\033[93m+\033[96m]\033[93m Sedang Mempersiapkan Tools Harap Tunggu Sebentar...")
+		sleep(10)
+		os.system(Clears)
+		print("\n")
 		print(input("\033[91m[\033[93m+\033[91m]\033[93m Tekan Enter Untuk Melanjutkan"))
 		os.system(Clears)
 		print("\n")
@@ -134,13 +138,13 @@ def Lagi():
 		sleep(5)
 		os.system(Clears)
 		os.system(Ulangi)
-	elif GatorBks is "3":
+	elif GatorBks == "3":
 		os.system(Clears)
 		print("\n")
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:
@@ -161,8 +165,10 @@ def Lagi():
 def Pertambahan():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m PERTAMBAHAN")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	tambah = Nilai1 + Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")
@@ -174,8 +180,10 @@ def Pertambahan():
 def Pengurangan():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m PENGURANGAN")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	Kurang = Nilai1 - Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")
@@ -187,8 +195,10 @@ def Pengurangan():
 def Perkalian():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m PERKALIAN")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	Kali = Nilai1 * Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")
@@ -200,8 +210,10 @@ def Perkalian():
 def Pembagian():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m PEMBAGIAN")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	Bagi = Nilai1 / Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")
@@ -213,8 +225,10 @@ def Pembagian():
 def Perpangkatan():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m PERPANGKATAN")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	Pangkat = Nilai1 ** Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")
@@ -226,8 +240,10 @@ def Perpangkatan():
 def Sisa_Bagi():
 	os.system(Clears)
 	Gator_Bks()
-	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Pertama\033[93m =\033[0m "))
-	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[96m Masukkan Nilai Kedua\033[93m =\033[0m "))
+	print("\033[93m[\033[91m+\033[93m]\033[0m SISA BAGI")
+	print("\n")
+	Nilai1 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Pertama\033[93m =\033[0m "))
+	Nilai2 = int(input("\033[91m[\033[93m+\033[91m]\033[93m Masukkan Nilai Kedua\033[93m =\033[0m "))
 	Modulus = Nilai1 % Nilai2
 	print("\n")
 	print("\033[96m[\033[93m+\033[96m]\033[93m Hasilnya :")

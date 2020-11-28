@@ -40,15 +40,18 @@ apt install cmatrix -y
 pkg install cmatrix -y
 apt install neofetch -y
 pkg install neofetch -y
+pkg install tqdm -y
+apt install tqdm -y
 apt install api-termux -y
 pkg install api-termux -y
 pip install -r requirements.txt
+pip2 install -r requirements.txt
 pip install requests
 pip install mechanize
 pip2 install requests
 pip2 install mechanize
-pip install gem
-pip install html
+pip2 install requests mechanize tqdm
+pip2 install --upgrade pip
 apt install -y git zsh -y
 pkg install -y git zsh -y
 
@@ -127,7 +130,7 @@ def NFZ():
 		print(Author)
 		print(Thanks)
 		print("\033[37m")
-		sleep(3)
+		sleep(5)
 		os.system(Clears)
 		exit()
 	else:

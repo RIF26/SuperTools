@@ -9,7 +9,7 @@ clear
 
 
 #Color Text By ǴaͲor βks
-#\e[(efek);(warna)m
+#\e[(efek);(warna)m 
 #Efek Warna Default = 1
 #Efek Warna Gelap = 2
 #Efek Warna Gelap + Italic(i) = 3
@@ -99,7 +99,7 @@ NFZ () {
 	echo -e " Github    : https://github.com/Gator-Bks"
 	echo -e " Blogspot  : https://gatorberkelas.blogspot.com"
 	echo -e "$green●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"
-	echo -e "$w_default"
+	echo -e "\n"
 	Balik
 }
 
@@ -121,7 +121,7 @@ Balik() {
 # Ulang
 Lagi() {
 	clear
-	echo -e "\n"
+	NFZ
 	echo -e "$red[\e[1;37m1$red]$yellow KEMBALI KE PROGRAM SUBNETTING IP"
 	echo -e "$red[\e[1;37m2$red]$yellow KEMBALI KE AWAL PROGRAM"
 	echo -e "$red[\e[1;37m3$red]$red KELUAR"

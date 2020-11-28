@@ -127,7 +127,7 @@ class FileExporter:
                         writer.writerow(['Wilayah', ipGeoLocObj.Region])
                         writer.writerow(['Nama Wilayah', ipGeoLocObj.RegionName])
                         writer.writerow(['Zona Waktu', ipGeoLocObj.Timezone])
-                        writer.writerow(['Zip', ipGeoLocObj.Zip])
+                        writer.writerow(['Kode Zip', ipGeoLocObj.Zip])
                         writer.writerow(['Google Maps', ipGeoLocObj.GoogleMapsLink])
                         writer.writerow([])
             return True

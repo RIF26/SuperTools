@@ -86,8 +86,7 @@ NFZ () {
 	echo -e "   Seizin Saya!!"
 	echo -e " • For Credit/Bug Chat WA : 081310662343"
 	echo -e "$green●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●" 
-	echo -e "$w_default"
-	Menu
+	echo -e "\n"
 }
 
 
@@ -96,38 +95,38 @@ Menu() {
 	echo -e "$red[\e[1;37m1$red]$yellow DAPATKAN TARGET DARI SPESIFIK \e[1;31m@username"
 	echo -e "$red[\e[1;37m2$red]$yellow DAPATKAN TARGET DARI SPESIFIK \e[1;31m#hashtag"
 	echo -e "$red[\e[1;37m3$red]$yellow CRACK DARI DAFTAR TARGET ANDA"
+	echo -e "$red[\e[1;37m4$red]$red KELUAR"
 	echo -e "\n"
 	echo -e -n "$red[\e[1;33m+$red]$green Masukkan Pilihan $yellow=>$white "
 	read opt
 	echo -e "$w_default"
 
 	touch target
-	Start_Menu
 }
 
 
 # Start Menu
 Start_Menu() {
-# Dependencies
-dependencies=( "jq" "curl" )
-for i in "${dependencies[@]}"
-do
-command -v $i >/dev/null 2>&1 || {
-echo >&2 "$i : not installed - install by typing the command : apl install $i -y"
-exit
-}
-done
-
-
-# Dependencies
-dependencies=( "jq" "curl" )
-for i in "${dependencies[@]}"
-do
-    command -v $i >/dev/null 2>&1 || {
-        echo >&2 "$i : not installed - install by typing the command : apt install $i -y"
-        exit
+	# Dependencies
+	dependencies=( "jq" "curl" )
+	for i in "${dependencies[@]}"
+	do
+		command -v $i >/dev/null 2>&1 || {
+		echo >&2 "$i : not installed - install by typing the command : apl install $i -y"
+		exit
+	}
+	done
+	
+	
+	# Dependencies
+	dependencies=( "jq" "curl" )
+	for i in "${dependencies[@]}"
+	do
+	    command -v $i >/dev/null 2>&1 || {
+	        echo >&2 "$i : not installed - install by typing the command : apt install $i -y"
+	        exit
     }
-done
+	done
 
 
 case $opt in
@@ -180,6 +179,15 @@ case $opt in
 			echo -e "$red[\e[1;33m+$red]$red Start cracking...$w_default"
 			Start_Brute
 		fi
+		;;
+	4) #menu 4
+		clear
+		echo -e "\n"
+		echo -e "$Author"
+		echo -e "$Thanks"
+		echo -e "$w_default"
+		sleep 5
+		clear
 		;;
 	*) #wrong menu
 		echo -e "\n"
@@ -234,6 +242,7 @@ limit=100
 
 
 rm target
+rm cookie.txt
 
 echo -e "$w_default"
 Balik
@@ -257,7 +266,7 @@ Balik() {
 # Ulang
 Lagi() {
 	clear
-	echo -e "\n"
+	NFZ
 	echo -e "$red[\e[1;37m1$red]$yellow KEMBALI KE PROGRAM HACK INSTAGRAM"
 	echo -e "$red[\e[1;37m2$red]$yellow KEMBALI KE AWAL PROGRAM"
 	echo -e "$red[\e[1;37m3$red]$red KELUAR"
@@ -329,6 +338,8 @@ Lagi() {
 
 
 NFZ
+Menu
+Start_Menu
 }
 
 
