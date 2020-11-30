@@ -5,6 +5,25 @@
 <img src="https://1.bp.blogspot.com/-xzw_4BeBRaA/X7tf-gIfyAI/AAAAAAAAFSc/BYUQXlydn2kxRq7c_1WH9kZN4caJHD04wCNcBGAsYHQ/s1280/20201123_140823.png" href="https://gatorberkelas.blogspot.com" width="300"height="500"</img>
 </center>
 
+
+## Pembaruan Terbaru
+```
+Tools Baru :
+1). Hack Facebook (Login)
+2). Hack Facebook (No Login)
+3). Subnetting IP
+4). Suhu Temperatur
+5). Perbaikan Bug + Fitur Tambahan Pada Tools Program Sebelumnya
+
+
+
+Bila Ada Bug Pada Script, Silahkan Chat Di WhatsApp Saya Saja.
+WA : 081310662343
+
+
+Pembaruan Terakhir = 28 November 2020
+```
+
 ## Daftar Program
 ```
 1). HACK INSTAGRAM
@@ -26,12 +45,14 @@
 ```
 <br>
 
+
 ## Tutorial
 1). <a href="https://gatorberkelas.blogspot.com/2020/10/cara-menjalankan-program-supertools.html">Cara Menjalankan Program SuperTools</a>
 <br>
 2). <a  href="https://gatorberkelas.blogspot.com/2020/11/fungsi-program-supertools-by-gator-bks.html">Fungsi Program SuperTools</a>
 
 <br>
+
 
 ## Ikuti & Dukung
 <center>
@@ -69,6 +90,7 @@
 <br>
 </center>
 
+
 ## Jangan Lupa
 <center>
 <img src="https://1.bp.blogspot.com/-56z9qSi4Zzs/X7o8pkF1x0I/AAAAAAAAFPM/HZVtlFZ3ugI3JHfBxY6TrqhxAIwZf7OYwCNcBGAsYHQ/s840/Screenshot_2020_1122_172322.png" href="https://github.com/Gator-Bks/SuperTools" width="150"height="40"</img>
@@ -76,5 +98,6 @@
 <br>
 </center>
 <br>
+
 
 ## Terima Kasih 💙❤️
