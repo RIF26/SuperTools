@@ -25,7 +25,7 @@ WA : 081310662343
 Pembaruan Terakhir :
 28 November 2020
 
-Pembaruan Selanjutnya  :
+Pembaruan Selanjutnya :
 Segera Hadir!!!
 ```
 
