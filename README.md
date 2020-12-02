@@ -17,11 +17,16 @@ Tools Baru :
 
 
 
+Note : 
 Bila Ada Bug Pada Script, Silahkan Chat Di WhatsApp Saya Saja.
 WA : 081310662343
 
 
-Pembaruan Terakhir = 28 November 2020
+Pembaruan Terakhir :
+28 November 2020
+
+Pembaruan Selanjutnya  :
+Segera Hadir!!!
 ```
 
 ## Daftar Program
